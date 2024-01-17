@@ -31,6 +31,10 @@ Install them using the following command:
 ```
 pip install -r requirements.txt
 ```
+### Add the huggingface access token in img_rag_lib.py
+```
+hf_token = ""
+```
 ### Prepare the dataset of 1K prompt examples from DiffusionDB
 
 This step involves downloading and preparing a dataset of 1,000 prompt examples from HuggingFace's DiffusionDB. After execution, it generates a CSV file named prompts_unique.csv.
